@@ -1,0 +1,26 @@
+{
+	"name": "javiexin/valdatepf",
+	"type": "phpbb-extension",
+	"description": "Adds validation to the standard Date type Profile Fields.",
+	"homepage": "http://www.exincastillos.es/jxmods",
+	"version": "1.0.0RC",
+	"time": "2017-03-19",
+	"keywords": ["phpbb", "extension", "profile", "field", "date"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Javier Lopez (javiexin)",
+			"email": "javiexin@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Validated Date Profile Fields",
+		"soft-require": {
+			"phpbb/phpbb": "~3.1.4||~3.2.0"
+		}
+	}
+}
