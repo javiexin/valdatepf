@@ -292,7 +292,8 @@ class type_date extends \phpbb\profilefields\type\type_date
 		}
 
 		// Check the default value
-		if ($default_error = $this->validate_profile_field($field_data['field_default_value'], $field_data))
+		$field_default_data = array_merge($field_data, array('field_required' => 0));
+		if ($this->validate_profile_field($field_data['field_default_value'], $field_default_data))
 		{
 			$error[] = $this->user->lang('FIELD_VALIDATION_DEFAULT');
 		}
