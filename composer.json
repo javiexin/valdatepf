@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "Adds validation to the standard Date type Profile Fields.",
 	"homepage": "http://www.exincastillos.es/jxmods",
-	"version": "1.0.0RC2",
-	"time": "2017-03-19",
+	"version": "1.0.0",
+	"time": "2017-05-17",
 	"keywords": ["phpbb", "extension", "profile", "field", "date"],
 	"license": "GPL-2.0",
 	"authors": [
